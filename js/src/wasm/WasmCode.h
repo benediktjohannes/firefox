@@ -285,7 +285,7 @@ class CodeSegment : public ShareableBase<CodeSegment> {
   // will always be aligned to the executable code alignment.
   //
   // Random padding is added before the code range when we are aligning to the
-  // system page size, the start addressess of all the code memories will not
+  // system page size, the start addresses of all the code memories will not
   // conflict in associative icaches.
   //
   // Here's a picture that illustrates the resulting structure of allocations:
