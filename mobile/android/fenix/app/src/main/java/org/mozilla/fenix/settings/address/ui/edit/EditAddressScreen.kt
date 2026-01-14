@@ -185,7 +185,7 @@ private fun FormButtons(store: AddressStore) {
     Row {
         if (store.state.isEditing) {
             DestructiveButton(
-                text = stringResource(R.string.addressess_delete_address_button),
+                text = stringResource(R.string.addresses_delete_address_button),
                 modifier = Modifier.testTag(EditAddressTestTag.DELETE_BUTTON),
             ) {
                 store.dispatch(DeleteTapped)
