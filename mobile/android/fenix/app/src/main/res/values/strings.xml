@@ -2787,13 +2787,13 @@
     <!-- The text for the "Cancel" button for cancelling adding, updating or deleting an address -->
     <string name="addresses_cancel_button">Cancel</string>
     <!-- The text for the "Delete address" button for deleting an address -->
-    <string name="addressess_delete_address_button">Delete address</string>
+    <string name="addresses_delete_address_button">Delete address</string>
     <!-- The title for the "Delete address" confirmation dialog -->
-    <string name="addressess_confirm_dialog_message_2">Delete this address?</string>
+    <string name="addresses_confirm_dialog_message_2">Delete this address?</string>
     <!-- The text for the positive button on "Delete address" dialog -->
-    <string name="addressess_confirm_dialog_ok_button">Delete</string>
+    <string name="addresses_confirm_dialog_ok_button">Delete</string>
     <!-- The text for the negative button on "Delete address" dialog -->
-    <string name="addressess_confirm_dialog_cancel_button">Cancel</string>
+    <string name="addresses_confirm_dialog_cancel_button">Cancel</string>
     <!-- The text for the "Save address" menu item for saving an address -->
     <string name="address_menu_save_address">Save address</string>
     <!-- The text for the "Delete address" menu item for deleting an address -->
