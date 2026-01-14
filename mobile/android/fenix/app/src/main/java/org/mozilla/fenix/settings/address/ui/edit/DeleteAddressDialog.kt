@@ -39,21 +39,21 @@ internal fun DeleteAddressDialog(store: AddressStore) {
         AlertDialog(
             text = {
                 Text(
-                    text = stringResource(R.string.addressess_confirm_dialog_message_2),
+                    text = stringResource(R.string.addresses_confirm_dialog_message_2),
                     style = FirefoxTheme.typography.body2,
                 )
             },
             onDismissRequest = { store.dispatch(DeleteDialogAction.CancelTapped) },
             confirmButton = {
                 TextButton(
-                    text = stringResource(R.string.addressess_confirm_dialog_ok_button),
+                    text = stringResource(R.string.addresses_confirm_dialog_ok_button),
                     onClick = { store.dispatch(DeleteDialogAction.DeleteTapped) },
                     modifier = Modifier.testTag(EditAddressTestTag.DIALOG_DELETE_BUTTON),
                 )
             },
             dismissButton = {
                 TextButton(
-                    text = stringResource(R.string.addressess_confirm_dialog_cancel_button),
+                    text = stringResource(R.string.addresses_confirm_dialog_cancel_button),
                     onClick = { store.dispatch(DeleteDialogAction.CancelTapped) },
                     modifier = Modifier.testTag(EditAddressTestTag.DIALOG_CANCEL_BUTTON),
                 )
