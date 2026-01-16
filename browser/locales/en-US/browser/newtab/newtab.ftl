@@ -478,13 +478,13 @@ newtab-section-cancel-button = Not now
 
 ## Panel in the Customize menu section to manage followed and blocked topics
 
-newtab-section-mangage-topics-title = Topics
+newtab-section-manage-topics-title = Topics
 newtab-section-manage-topics-button-v2 =
     .label = Manage topics
-newtab-section-mangage-topics-followed-topics = Followed
-newtab-section-mangage-topics-followed-topics-empty-state = You have not followed any topics yet.
-newtab-section-mangage-topics-blocked-topics = Blocked
-newtab-section-mangage-topics-blocked-topics-empty-state = You have not blocked any topics yet.
+newtab-section-manage-topics-followed-topics = Followed
+newtab-section-manage-topics-followed-topics-empty-state = You have not followed any topics yet.
+newtab-section-manage-topics-blocked-topics = Blocked
+newtab-section-manage-topics-blocked-topics-empty-state = You have not blocked any topics yet.
 
 ## Strings for custom wallpaper highlight
 
